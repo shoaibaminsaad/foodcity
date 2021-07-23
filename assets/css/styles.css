@@ -3,16 +3,16 @@
 
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /*========== Colors ==========*/
-  --first-color: #D81466;
-  --first-color-alt: #da4181;
+  --first-color: #D91B5C;
+  --first-color-alt: #BF1E2D;
   --title-color: #000000;
   --text-color: #000000;
   --text-color-light: #979797;
-  --body-color: #FBFEFD;
-  --container-color: #FFFFFF;
+  --body-color: #fffafc;
+  --container-color: #fff2f7;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -218,7 +218,7 @@ img{
 .button{
   display: inline-block;
   background-color: var(--first-color);
-  color: #FFF;
+  color: #FFFFFF;
   padding: .75rem 1rem;
   border-radius: .5rem;
   transition: .7s;
@@ -370,7 +370,7 @@ img{
 
 .footer__social{
   font-size: 1.5rem;
-  color: var(--title-color);
+  color: var(--text-color);
   margin-right: var(--mb-2);
 }
 
